@@ -11,9 +11,15 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+- use git diff --staged to see what the diff is between staged and last commit
+- use git diff to see diff between staged and working directory
+- use git diff #commit1 #commit2 to see diff between commits
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+- Trying out new stuff
+- Adding a different language version for example
+- Refactoring code
 
 How do the diagrams help you visualize the branch structure?
 

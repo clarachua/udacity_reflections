@@ -22,9 +22,16 @@ organized? How would branches help?
 - Refactoring code
 
 How do the diagrams help you visualize the branch structure?
+- Easier to read / understand the changes
+- Can see how many branches and which branch we are at
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+- Merge all changes so we have everything that works together
+- Represented to show changes to master and any branches
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+- Some automatic merges may not always take into consideration if some changes are the same
+(e.g. if 2 branches did same function but named them differently, you only wanna keep 1)
+- Always doing merges manually may be time consuming and tiresome if it's fairly straightforward
